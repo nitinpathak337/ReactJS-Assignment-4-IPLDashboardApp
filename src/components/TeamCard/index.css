@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.list-item {
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 18px;
+  width: 35%;
+  margin: 1%;
+  padding: 1%;
+  text-decoration: none;
+  height: 15vh;
+}
+.team-logo {
+  width: 25%;
+}
+.team-name {
+  text-align: center;
+  font-family: 'Bree Serif';
+  margin-left: 2%;
+  color: #ffffff;
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 37px;
+    margin-left: 8%;
+  }
+  .list-item {
+    height: 30vh;
+  }
+}
